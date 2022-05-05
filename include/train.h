@@ -13,7 +13,6 @@ class Train {
   Cage *first; // точка входа в поезд (первый вагон)
   Cage* last; // последний вагон
   Train::Cage *create(bool light);
- 
  public:
   Train();
   void addCage(bool light); // добавить вагон с начальным состоянием лампочки
